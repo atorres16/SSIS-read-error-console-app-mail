@@ -54,9 +54,12 @@ Let's say you have a SSIS package that runs a console app, everything works fine
    * StandardErrorVariable: ***StdError*** variable
    * StandardOutputVriable: ***StdOutput*** variable
    * WorkingDirectory: The folder of `ConsoleApplication1.exe`, should be something like `C:\...\ConsoleApplication1\bin\debug\`
-<br>
-    *Changes are highlighted:*    
+
+
    ![](images/2020-09-25-11-07-54.png)     
+    *Changes are highlighted:*    
+
+
 6. Add a ***Send Mail Task*** element
 7. Connect the ***Execute Process Task*** to the ***Send Mail Task***
 8. Double click the green arrow
