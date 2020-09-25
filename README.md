@@ -59,6 +59,9 @@ Let's say you have a SSIS package that runs a console app, everything works fine
    ![](images/2020-09-25-11-07-54.png)     
     *Changes are highlighted:*    
 
+   * You can also directly use the task editor    
+    ![](images/2020-09-25-12-47-36.png)
+
 
 6. Add a ***Send Mail Task*** element
 7. Connect the ***Execute Process Task*** to the ***Send Mail Task***
