@@ -82,12 +82,12 @@ Let's say you have a SSIS package that runs a console app, everything works fine
 14. Click OK
 15. Run the package
     * ***Execute Process Task*** should fail
-    * ***Send Mail Task*** should succeed
+    * ***Send Mail Task*** should succeed    
     ![](images/2020-09-25-11-22-58.png)    
-16. Check you email
+16. Check you email    
     ![](images/2020-09-25-11-25-30.png)
 
 ## Resources        
-* [Executing your own .NET console application from SSIS (more complete example)](https://www.sqlshack.com/executing-net-console-application-ssis/)
+* [Executing your own .NET console application from SSIS (throughout example)](https://www.sqlshack.com/executing-net-console-application-ssis/)
 ## Download source code
 * https://github.com/atorres16/SSIS-read-error-console-app-mail.git
