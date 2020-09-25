@@ -43,7 +43,7 @@ Let's say you have a SSIS package that runs a console app, everything works fine
    * ***StdOutput - String*** - Stores anything printed out with ***Console.WriteLine(...)*** in the console app
   
    ![](images/2020-09-25-11-00-52.png)
-3.  and add an ***Execute Process Task*** to the ***control Flow***
+3.  and add an ***Execute Process Task*** to the ***control Flow***    
    ![](images/2020-09-25-10-59-21.png)
 4. Right click the element and select ***Properties***
 5. Configure properties like this:
@@ -55,8 +55,8 @@ Let's say you have a SSIS package that runs a console app, everything works fine
    * StandardOutputVriable: ***StdOutput*** variable
    * WorkingDirectory: The folder of `ConsoleApplication1.exe`, should be something like `C:\...\ConsoleApplication1\bin\debug\`
 <br>
-    *Changes are highlighted:*
-   ![](images/2020-09-25-11-07-54.png)   
+    *Changes are highlighted:*    
+   ![](images/2020-09-25-11-07-54.png)     
 6. Add a ***Send Mail Task*** element
 7. Connect the ***Execute Process Task*** to the ***Send Mail Task***
 8. Double click the green arrow
