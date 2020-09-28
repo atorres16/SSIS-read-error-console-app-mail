@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="19"
-  DTS:VersionGUID="{A299762F-B9C1-4AE3-9D1C-F7DA06684FAD}">
+  DTS:VersionBuild="20"
+  DTS:VersionGUID="{CF2B7592-DA9D-41F6-B679-DE4A6BED3A6B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -23,7 +23,7 @@
       DTS:ObjectName="SMTP Connection Manager">
       <DTS:ObjectData>
         <SmtpConnectionManager
-          ConnectionString="SmtpServer=linamar-com3.linamar.com;UseWindowsAuthentication=True;EnableSsl=False;" />
+          ConnectionString="SmtpServer=Your_Email_Host.linamar.com;UseWindowsAuthentication=True;EnableSsl=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>

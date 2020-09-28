@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">LDL-ATORRES</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmiBaDrJt2EWeT9Lu4R/26wAAAAACAAAAAAADZgAAwAAAABAAAACtEs9zBLdDVaCoyrkh5oDmAAAAAASAAACgAAAAEAAAANAWqhU9tsbL2WR3+Wid88iIAAAARDxySeC8ZHLlI5AshThbm8UKF+NCjxRny+27jAG6+iBUMMJG3MdY79Li8aGx8DHodJieAmAbjOL2B+Tnyi0rVAZ9f0hOL/ZAFwrgsvM2u/Ptw7WFyKNRm1osaJRQGrwf25eYOj/cdvyGWHbKsPYqKu1rh5nioY0Av69MHutFnQcl7Fnwwaa/5xQAAAAP/9VZHO/ss1VQ1euVAqY9rCwNkw==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAUmwp1C8ENUSKYIUt+Oty9wAAAAACAAAAAAADZgAAwAAAABAAAAC9gPI4jl99/cmvzIlahWsmAAAAAASAAACgAAAAEAAAAAE8hzb0h2OfSMiEqTcKLVOIAAAAhR6UapZDN8qgops44XR3S2Zn40AwzvWiLV7zkpc1uKN19WCa/TdGWdBatYtU+FnBhAexZRSNpbTOnhi5+B3apgAyAnzZzWF880ykzsrlNPGllZXrH8KJhRqYsuTIHwO3liMiLiqPolaDTzP/TADDs53A9ASXCQqaamFnAZcdVMN47e49Y1sOERQAAACBG5aRSMERa485cfh73lWKG2cn5w==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,10 +42,10 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">3</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">20</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{8B68040D-458F-42B9-BB2B-074612172A2D}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{CF2B7592-DA9D-41F6-B679-DE4A6BED3A6B}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -63,7 +63,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">SmtpServer=linamar-com3.linamar.com;UseWindowsAuthentication=True;EnableSsl=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">SmtpServer=Your_Email_Host.linamar.com;UseWindowsAuthentication=True;EnableSsl=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -93,7 +93,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">linamar-com3.linamar.com</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Your_Email_Host.linamar.com</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
