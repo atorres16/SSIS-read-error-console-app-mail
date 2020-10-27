@@ -7,12 +7,12 @@
   DTS:CreatorName="LINAMAR\atorres"
   DTS:DTSID="{6E8D5345-6D3C-49D0-B3A9-51344FC31A90}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="13.0.2165.0"
+  DTS:LastModifiedProductVersion="14.0.3008.28"
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="20"
-  DTS:VersionGUID="{CF2B7592-DA9D-41F6-B679-DE4A6BED3A6B}">
+  DTS:VersionBuild="21"
+  DTS:VersionGUID="{A3A05C34-3D17-4D61-8145-CD6F1852EE69}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -96,8 +96,8 @@
       <DTS:ObjectData>
         <SendMailTask:SendMailTaskData
           SendMailTask:SMTPServer="{98335CAF-8548-4FAC-AA43-3CD14E99EFA4}"
-          SendMailTask:From="ldlwebadmin@linamar.com"
-          SendMailTask:To="atorres@linamar.com"
+          SendMailTask:From="user@email.com"
+          SendMailTask:To="anotheruser@email.com"
           SendMailTask:Subject="Package Error"
           SendMailTask:Priority="High"
           SendMailTask:MessageSource="Return Code:0&#xA;Error:&#xA;Output:" xmlns:SendMailTask="www.microsoft.com/sqlserver/dts/tasks/sendmailtask" />
@@ -151,11 +151,11 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="180,42"
+          Size="180,41.6"
           Id="Package\Execute Process Task"
           TopLeft="10,14" />
         <NodeLayout
-          Size="150,42"
+          Size="150.4,41.6"
           Id="Package\Send Mail Task"
           TopLeft="36,166" />
         <EdgeLayout
